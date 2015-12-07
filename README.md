@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nwinch/australian-states.svg?branch=master)](https://travis-ci.org/nwinch/australian-states)
+
 # Australian States
 List of Australian state information.
 
