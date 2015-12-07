@@ -44,3 +44,24 @@ var states = require('australian-states')
 states.capitals() // ["canberra", "sydney", ...]
 states.capitals({capitalize: true}) // ["Canberra", "Sydney", ...]
 ```
+
+### `.all()`
+
+Returns an array of state objects containing `name`, `abbreviation`, `capital`
+and `type`.
+
+Example:
+
+```javascript
+var states = require('australian-states')
+
+states.all()
+/*
+[{
+  name: 'australian capital territory',
+  abbreviation: 'act',
+  capital: 'canberra',
+  type: 'territory'
+}]
+*/
+```
